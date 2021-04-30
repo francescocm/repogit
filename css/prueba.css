@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ranchers&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+h1, h2, h3, h4 {
+  color: #ff8800; }
+
+.tituloprincipal {
+  font-size: 70px;
+  color: #ffffff; }
+
+.efa__texto {
+  color: #ff8800; }
+
+body {
+  background-image: url("http://wallpapers4screen.com/Uploads/25-1-2016/16275/green-grass-football-turf-football-stadium-the-football-pitch.jpg"); }
+
+header, a {
+  color: #ff8800;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px; }
+
+.item1:hover {
+  transition: 3s;
+  font-size: 3rem; }
+
+h1 {
+  font-family: "Lobster", cursive;
+  text-align: center;
+  border-style: double;
+  border-color: #ff8800;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px; }
+
+p {
+  font-family: 'Bebas Neue';
+  color: #ff8800;
+  font-size: 20px; }
+
+h2 {
+  text-align: center;
+  border-style: double;
+  border-color: #ff8800;
+  font-style: normal;
+  font-weight: bold;
+  font-family: 'Bebas Neue';
+  font-size: 30px; }
+
+h3 {
+  text-align: center;
+  border-style: double;
+  border-color: #ff8800;
+  font-style: normal;
+  font-weight: bold;
+  font-family: 'Bebas Neue';
+  font-size: 30px; }
+
+h4 {
+  text-align: center;
+  border-style: double;
+  border-color: #ff8800;
+  font-style: normal;
+  font-weight: bold;
+  font-family: 'Bebas Neue';
+  font-size: 30px; }
+
+h5 {
+  color: #919191;
+  text-align: center;
+  border-style: double;
+  border-color: #0f3e85;
+  font-style: normal;
+  font-weight: bold;
+  font-family: 'Bebas Neue';
+  font-size: 30px; }
+
+ul li {
+  list-style-type: square;
+  color: #d4cec4;
+  font-style: normal;
+  font-size: medium;
+  font-weight: bold;
+  font-family: 'Bebas Neue'; }
+
+table, th, td {
+  color: #78afc0;
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Bebas Neue';
+  border: 2px solid #ff8800;
+  text-align: left;
+  font-size: medium; }
+
+th {
+  color: #78afc0;
+  font-style: normal;
+  font-weight: bold;
+  font-family: 'Bebas Neue';
+  border: 2px solid #ff8800;
+  text-align: center; }
+
+label {
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-family: 'Bebas Neue'; }
+
+tr:hover
+.button1 {
+  background-color: #ff8800; }
+
+.container {
+  width: 500px;
+  margin: 100px;
+  padding: auto; }
+
+.redes {
+  width: 500px;
+  margin: 100px;
+  padding: auto; }
+
+.fotosobreredes {
+  width: 500px;
+  margin: 50px; }
+
+.flex-container {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: initial;
+  align-content: flex-start;
+  order: initial; }
+
+.grid {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto auto;
+  background-image: linear-gradient(to top orange, white);
+  grid-area: auto;
+  border: 10px solid #cddbf3;
+  width: 90%;
+  margin: auto;
+  text-align: center; }
+
+.textohistoria {
+  color: #2c5da8;
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #ffa600); }
+
+.textocontacto {
+  color: #2c5da8; }
+
+.textoplantilla {
+  color: #2c5da8; }
+
+.item2:hover {
+  transition: 3s;
+  font-size: 3rem; }
+
+.item1 {
+  grid-area: header; }
+
+.item2 {
+  grid-area: menu; }
+
+.item3 {
+  grid-area: main; }
+
+.item4 {
+  grid-area: right; }
+
+.item5 {
+  grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 'header header header header header header' 'menu main main main right right' 'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  padding: 10px; }
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px; }

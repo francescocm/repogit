@@ -119,7 +119,9 @@ label {
 
 tr:hover 
 
-.button1 {background-color: #ff8800;}
+.button {
+  background-color: #ff8800;
+}
 
 .container {
   width: 500px;
